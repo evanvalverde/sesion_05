@@ -1,6 +1,6 @@
 ---
 - name: "Demostracion de registros"
-  hosts: master
+  hosts: nodos
   tasks:
     - name: "Reinicio del servicio ssh"
       service:
